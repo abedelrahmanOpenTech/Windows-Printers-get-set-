@@ -1,0 +1,2 @@
+#Add the following command to chrom proprties in Target field
+--kiosk-printing --use-system-default-printer
