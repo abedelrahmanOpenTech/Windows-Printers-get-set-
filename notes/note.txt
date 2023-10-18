@@ -1,0 +1,18 @@
+#[Chrome]
+
+#Add the following command to chrom proprties in Target field
+--kiosk-printing --use-system-default-printer
+
+#--kiosk-printing: this enables silent printing
+#--use-system-default-printer: it allows the browser to print using system default printer
+-----------------------------------------------------
+
+
+#[Firefox]
+
+#For Firefox: to enable silent print go to about:config and change print.always_print_silent to true
+
+-----------------------------------------------------
+#[Chrome & Firefox]
+-to enable full screen on both browsers, add the following command to proprties in Target field: --kiosk
+-Firefox doesn't have option to use system default printer

@@ -28,9 +28,8 @@
 
     </div>
 
-
     <script>
-        var otc_windows_printer_url = "http://localhost:90/test/otc_windows_printer1/";
+        var otc_windows_printer_url = "index.php";
 
         function get_printerList() {
             var $spinner = $("#printers_list_spinner");
@@ -45,7 +44,7 @@
                 success: function(response) {
                     $spinner.hide();
                     response = JSON.parse(response);
-                    if(response.length==0){
+                    if (response.length == 0) {
                         alert("exe not found");
                         return;
                     }
